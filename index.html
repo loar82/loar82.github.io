@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  <title>Encriptador de Texto con JavaScript</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<!-- CUERPO DE PAGINA -->
+
+<body>
+
+  <!-- Titulo dentro del cuerpo-->
+  <h1 class="titulo">Encriptador de Texto con <span>JavaScript</span></h1>
+  <br>
+  <div class="contenedor">
+    <h3 style="color: white">Mensaje secreto</h3>
+    <p style="color: white";>fenterlimescimesdaidenters poberr enternfrenterntair enterstenter dentersaifimesober y haibenterrlober
+      cobernclufatimesdober cobern enterximestober!</p>
+      <br>
+    <h3 style="color: white">Mensaje desencriptado</h3>
+    <p style="color: white";>felicidades por enfrentar este desafio y haberlo concluido con exito!</p>
+  </div>
+  <br>
+  <main class="main">
+    <!-- Especifica el contenido principal del documento -->
+
+    <section class="form box">
+      <form id="formulario">
+        <label for="input-texto">Solo letras minúsculas, sin acentos</label>
+        <textarea class="text-input" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui" rows="5"
+          cols="50"></textarea>
+        <div class="button-container">
+          <input class="btn" type="submit" value="Encriptar" id="btn-encriptar">
+          <input class="btn" type="submit" value="Desencriptar" id="btn-desencriptar">
+        </div>
+        <br>
+        <label for="mensaje-texto">Mensaje encriptado:</h2></label>
+        <textarea class="text-input" name="mensaje-texto" id="mensaje-texto" rows="5" cols="50"></textarea>
+        <div class="button-container">
+          <input class="btn" type="submit" value="Copiar texto" id="btn-copy">
+          <input class="btn" type="reset" value="Limpiar" id="btn-limpiar">
+        </div>
+      </form>
+    </section>
+  </main>
+  <br>
+  <footer class="footer">
+    <p><img src="img/rla_2.jpg" width="130" height="182" alt="Rafael López">Hecho por <span>Rafael López Arroyo</span> |
+      &copy; 2022</p>
+  </footer>
+
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
